@@ -6,7 +6,7 @@ function Pokemoninfo(props) {
     // console.log("Pokemon info ejecutado")
     const [datos, setDatos] = useState(props.informacion);
     const [Id, setId] = useState(props.id);
-    console.log(props.informacion)
+//     console.log(props.informacion)
     return <div>
         <h1 className={styles.name_pokemon}>{datos.name}</h1>
         <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${Id}.png`} className={styles.img_pokemon}></img>
