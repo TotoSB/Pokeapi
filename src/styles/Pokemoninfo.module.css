@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.name_pokemon {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.hp_pokemon {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+
+@media (max-width : 600px) {
+    body {
+        overflow: hidden;
+    }
+  .img_pokemon {
+    width: 200px;
+  }
+}
+
+@media (max-height: 867px) {
+    .img_pokemon {
+        width: 200px;
+      }
+}
